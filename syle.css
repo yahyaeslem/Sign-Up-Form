@@ -1,0 +1,142 @@
+body {
+  
+    font-family: system-ui, sans-serif
+  }
+  
+  label,
+  input,
+  button,
+  select,
+  legend,
+  textarea {
+    font-size: 1.3rem;
+    line-height: 1.2;
+  }
+ form div{
+    margin-top: 1rem;
+    box-shadow: 10px;
+   
+ }
+ .form-element {
+    font-size: 1.3rem;
+    line-height: 1.2;
+  }
+  label {
+    margin-bottom: 0.4rem;
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  input,
+textarea {
+  
+  padding: 0.4rem;
+  width: 300px;
+  border: 1px solid rgb(109, 108, 108);
+  border-radius: 15px;
+  background-color: rgb(247, 245, 245);
+
+}
+
+button {
+  margin-top: 2rem;
+  background-color: rgb(96, 96, 204);
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  width: 11rem;
+  height: 4rem;
+}
+button:focus {
+    outline: 4px solid rgb(74, 82, 74);
+}
+.split-left {
+    height: 100%;
+    width: 40%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    left: 0;
+    background-image:url(image.jpg)
+  }
+ 
+ 
+  .centered {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .centered img {
+    width: 150px;
+    border-radius: 90%;
+    
+  }
+  div>.leftheader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.459);
+   
+    width:100rem;
+   
+  }
+ 
+  
+  .type
+{
+    font-size: 4em;
+   
+}
+
+
+.split-right{
+    height: 100%;
+    width: 60%;
+    position: fixed;
+    z-index:1;
+    top: 2;
+    overflow-x: hidden;
+    padding-top: 20px;
+    right: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+.form-wrapper{
+
+ box-shadow: 10;
+ margin: 10px;
+  padding: 10px;
+ 
+}
+.footright{
+
+  margin-bottom: 10px;
+  
+  margin: 10px;
+  padding: 10px;
+ 
+}
+.container{
+  /* display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; */
+  background-color: rgba(212, 204, 204, 0.103);
+    width: 100%;
+  box-shadow: 10 10 10 10;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+  margin: 10px;
+  padding: 10px;
+}
+.form-wrapper > div {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 80px;
+  row-gap: 18px;
+  margin-bottom: 18px;
+}
